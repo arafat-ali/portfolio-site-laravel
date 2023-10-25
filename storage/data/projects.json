@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "experienceId": 1,
+        "title": "Doctor Appointment System",
+        "description": "Patient, Admin, Doctor has seperate view. Patients can register and take appointments, view serial number & Current serial on-going.",
+        "tech" : "HTML, Vanilla CSS, Bootstrap, PHP, jQuery",
+        "image" : "project.jpg"
+    },
+    {
+        "id": 2,
+        "experienceId": 1,
+        "title": "App Server",
+        "description": "A Backend panel with RESTFull API which is made to serve mobile applications Advertisement and other features",
+        "tech" : "HTML, Material UI, PHP, jQuery, Laravel",
+        "image" : "appserver.png"
+    },
+    {
+        "id": 3,
+        "experienceId": 1,
+        "title": "Subscription Management System",
+        "description": "A system where user can track their purchased subscriptions and get notified (yearly, monthly, weekly, daily)",
+        "tech" : "HTML, Tailwind CSS, PHP, Laravel, Javascript, vue.js",
+        "image" : "subs.png"
+    },
+    {
+        "id": 4,
+        "experienceId": 2,
+        "title": "Track my Subs",
+        "tech" : "HTML, Tailwind CSS, PHP, WordPress, Vue.js",
+        "description": "A system where user can track their purchased subscriptions and get notified (yearly, monthly, weekly, daily), also can buy subscription from our system in a low price",
+        "image" : "subs.png"
+    },
+    {
+        "id": 5,
+        "experienceId": 2,
+        "title": "Page builder",
+        "description": "A web page builder with tailwind css",
+        "tech" : "HTML, Tailwind CSS, Javascript, Typescript",
+        "image" : "project.jpg"
+    },
+    {
+        "id": 6,
+        "experienceId": 2,
+        "title": "Workplanr",
+        "description": "A TODO Application with some advance features",
+        "tech" : "HTML, Tailwind CSS, Javascript, Typescript",
+        "image" : "shoccho.png"
+    },
+    {
+        "id": 7,
+        "experienceId": 3,
+        "title": "Gorur haat",
+        "description": "Gorur haat mainly a platform to sell cows and goats in Qurbani Eid, Customer can buy whole animal or Portion(1 to 7) of cow",
+        "tech" : "HTML, Bootstrap, jQuery, PHP, Laravel",
+        "image" : "gorurhaat.png"
+    },
+    {
+        "id": 8,
+        "experienceId": 3,
+        "title": "Mahmud Website",
+        "description": "Mahmud group website",
+        "tech" : "HTML, Tailwind CSS, Vue.js, Nuxt.js, Php, Laravel",
+        "image" : "mahmud.png"
+    },
+    {
+        "id": 9,
+        "experienceId": 3,
+        "title": "Shoccho",
+        "description": "Shoccho is a HR management system with mobile Application",
+        "tech" : "HTML, Tailwind CSS, Vue.js, Php, Laravel, Firebase",
+        "image" : "shoccho.png"
+    }
+
+]

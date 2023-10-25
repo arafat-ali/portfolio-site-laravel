@@ -1,11 +1,9 @@
 <header class="header">
-    <a href="#" class="logo">Arafat.</a>
+    <a href="/" class="logo">Arafat.</a>
 
     <nav class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="/" class="{{Request::path() == '/' ? 'active': ''}}">Home</a>
+        <a href="/experience" class="{{Request::path() == 'experience' ? 'active': ''}}">Work Experience</a>
+        <a href="/projects" class="{{Request::path() == 'projects' || Route::currentRouteName()=='project-by-exp' ? 'active': ''}}">Projects</a>
     </nav>
 </header>

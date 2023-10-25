@@ -4,8 +4,12 @@
 <div class="home-content">
     <h1>Hi, I'm Arafat Ali</h1>
     <h3>Full Stack Software Developer</h3>
-    <p>Motivated Software Developer with 3 years of experience in different IT industries. 
+    <p class="tracking-widest">
+        Motivated Software Developer with 3.5 years of experience in different IT industries. 
         Adept at managing different stacks of engineers and determined to achieve extraordinary results.
+
+        </br></br>
+
         I’m a passionate programmer and a keen learner, experienced in building scalable, 
         maintainable web systems from scratch
     </p>

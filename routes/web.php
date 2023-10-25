@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Web\ExperienceController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('website.pages.home');
-});
+})->name('home');
+
+
+Route::get('/experience', [ExperienceController::class, 'list']);
+Route::get('/experience/{id}', [ExperienceController::class, 'show']);
+Route::get('/projects', [ExperienceController::class, 'listOfProjects']);
+Route::get('/projects/{experiencId}', [ExperienceController::class, 'projectsInExperience'])->name('project-by-exp');

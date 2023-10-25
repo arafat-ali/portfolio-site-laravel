@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  @include('website.includes.head')
-</head>
+  <head>
+    @include('website.includes.head')
+  </head>
 
-<body>
+  <body>
 
     @include('website.includes.header')
-    <section class="home">
-         @yield('content')
     
-        
-     @include('website.includes.footer')
-  </section>
+    <section class="{{Request::path() == '/' ? 'home' : 'others'}}">
+          
+      @yield('content')  
+      
+    </section>
+    @include('website.includes.footer')
 
-</body>
+  </body>
 
 </html>

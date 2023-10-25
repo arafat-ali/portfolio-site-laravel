@@ -5,4 +5,5 @@
     <title>Arafat - Personal Portfolio</title>
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
